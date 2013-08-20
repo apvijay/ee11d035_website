@@ -4,12 +4,12 @@ case "$1" in
 #
 # upload to ee server
 push) rsync -rlvv ./* ee11d035@www.ee.iitm.ac.in:~/public_html
-      echo "Pushed to ee server\n"
+      echo "Pushed to ee server"
       ;;
 #
 # sync with github
 sync) git push -u origin master
-     echo "Synced with github\n"
+     echo "Synced with github"
      ;;
 #
 # default
