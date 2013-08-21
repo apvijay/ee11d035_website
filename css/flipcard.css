@@ -32,7 +32,6 @@
   -webkit-transform: rotateY(180deg);
 }
 .flip-card .front, .flip-card .back{
-  border: 0px solid #000000;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -41,40 +40,39 @@
   backface-visibility: hidden;
 }
 
-
 .bg-color-dark-blue{
-  background: #1111ff;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-light-blue{
-  background: #8888ff;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-dark-green{
-  background: #11ff11;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-light-green{
-  background: #88ff88;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-dark-red{
-  background: #ff1111;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-light-red{
-  background: #ff8888;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-dark-yellow{
-  background: #ffff11;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 .bg-color-light-yellow{
-  background: #ffff88;
+  border: 2px solid #00ccff;
+  background: transparent;
 }
 
 
-.info{
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-h2{
-  font-size: 60px;
-}
+

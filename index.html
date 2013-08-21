@@ -1,28 +1,54 @@
 <!doctype html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <html>
 <head>
 <title> Vijay Rengarajan | EE, IIT Madras</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
+<!--<link charset="utf-8" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" media="screen" rel="stylesheet">
+<link charset="utf-8" href="//fonts.googleapis.com/css?family=Roboto%20Condensed:400" media="screen" rel="stylesheet">
+-->
 <link rel="stylesheet" href="css/flipcard.css" /> 
+<link rel="stylesheet" href="css/details.css" /> 
+
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+ 
+<!-- Load ScrollTo -->
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+ 
+<!-- Load LocalScroll -->
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#scroll-smooth').localScroll({duration:800});
+});
+</script>
 
 </head>
 
-
-<div class="cards">
+<body>
+<section>
+<div class="cards" id="scroll-smooth">
 <!--
 <div class="flip-card" ontouchstart="this.classList.toggle('hover');">
 -->
 <div class="flip-card">
+<a href="#research" class="flip">
 <div class="flipper">
-  <div class="front bg-color-light-blue">
+  <div class="front bg-color-light-blue" id="scroll-smooth">
     <h2>R</h2>
   </div>
   <div class="back bg-color-dark-blue">
     <p>Research</p>
   </div>
 </div>
+</a>
 </div>
 
 <div class="flip-card">
+<a href="#assistantship" class="flip">
 <div class="flipper">
   <div class="front bg-color-light-green">
     <h2>A</h2>
@@ -31,9 +57,11 @@
     <p>Assistantship</p>
   </div>
 </div>
+</a>
 </div>
 
 <div class="flip-card">
+<a href="#courses" class="flip">
 <div class="flipper">
   <div class="front bg-color-light-red">
     <h2>C</h2>
@@ -42,9 +70,11 @@
     <p>Courses</p>
   </div>
 </div>
+</a>
 </div>
 
 <div class="flip-card">
+<a href="#extras" class="flip">
 <div class="flipper">
   <div class="front bg-color-light-yellow">
     <h2>E</h2>
@@ -53,12 +83,122 @@
     <p>Extras</p>
   </div>
 </div>
+</a>
 </div>
 
 </div>
+</section>
 
+<section>
+<div class="name">
+<h1>A P Vijay Rengarajan</h1>
+</div>
+</section>
+
+
+<section>
+<div class="empty">
+</div>
+</section>
+
+<section>
+<div class="empty">
+<a id="research"></a>
+</div>
+</section>
+
+<section>
 <div class="info">
-<p>Site under construction - Vijay Rengarajan</p>
+<h3>Research</h3>
+<p style="font-size:2em;margin-left:200px;">
+Image processing<br>
+Computer vision<br>
+Compressive sensing</p>
+<p style="font-size:1.5em;margin-left:200px;">
+working with 
+<a href="http://www.ee.iitm.ac.in/facs_aravind" style="color:#00ccff;">
+Prof. R.Aravind</a>
+ and 
+<a href="http://www.ee.iitm.ac.in/~raju" style="color:#00ccff;">
+Prof. A.N.Rajagopalan</a><br>
+at Image Processing and Computer Vision (IPCV) 
+<a href="http://www.ee.iitm.ac.in/ipcvlab" style="color:#00ccff;">
+lab</a>.</p>
 </div>
+</section>
+
+<section>
+<div class="empty">
+<a id="assistantship"></a>
+</div>
+</section>
+
+<section>
+<div class="info">
+<h3>Assistantship</h3>
+<p style="font-size:2em;margin-left:200px;">
+Current: Introduction to DSP [grad]</p>
+<p style="font-size:1.5em;margin-left:200px;">
+Past:<br>
+Analog and DSP [under-grad]<br>
+Digital Signal Processing [grad]<br>
+Probability foundations [grad]<br>
+Communication Networks [grad]</p>
+</div>
+</section>
+
+<section>
+<div class="empty">
+<a id="courses"></a>
+</div>
+</section>
+
+<section>
+<div class="info">
+<h3>Courses</h3>
+<p style="font-size:1.5em;margin-left:200px;">
+Image Processing<br>
+Digital Signal Processing<br>
+Digital Video Processing<br>
+Convex Optimization<br>
+Linear Algebra<br>
+Probability foundations<br>
+Functional Analysis<br>
+Pattern Recognition<br>
+Advanced DSP<br>
+Detection and Estimation theory</p>
+</div>
+</section>
+
+<section>
+<div class="empty">
+<a id="extras"></a>
+</div>
+</section>
+
+<section>
+<div class="info">
+<h3>Extras</h3>
+<p style="font-size:1.5em;margin-left:200px;">
+IPCV <a href="http://www.ee.iitm.ac.in/ipcvlab" style="color:#00ccff;">
+lab</a>, 
+Dept. of <a href="http://www.ee.iitm.ac.in" style="color:#00ccff;">
+EE</a>,
+IIT <a href="http://www.iitm.ac.in" style="color:#00ccff;">M</a>adras<br>
+Compressed sensing <a href="http://dsp.rice.edu/cs" style="color:#00ccff;">
+resources</a><br>
+<br>
+<a href="http://twitter.com/urapvr" style="color:#00ccff;">Twitter</a><br>
+<a href="https://github.com/urapvr" style="color:#00ccff;">github</a><br>
+<br>
+IITM Research 
+<a href="http://researchportal.iitm.ac.in" style="color:#00ccff;">
+portal</a><br>
+Writer Jeyamohan, எழுத்தாளர் 
+<a href="https://jeyamohan.in" style="color:#00ccff;">ஜெயமோகன்</a>
+</p>
+</div>
+</section>
+</body>
 </html>
 
