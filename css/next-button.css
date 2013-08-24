@@ -1,0 +1,28 @@
+.next-section{
+  background-image: url("../img/next_sec_button.png");
+  bottom: 25px;
+  display: block;
+  height: 52px;
+  left: auto;
+  margin-left: -26px;
+  position: fixed;
+  right: 25px;
+  width: 52px;
+/*  z-index: 1000;
+  cursor: pointer;*/
+  transform: rotate(180deg);
+}
+.prev-section{
+  background-image: url("../img/next_sec_button.png");
+  bottom: 95px;
+  display: block;
+  height: 52px;
+  left: auto;
+  margin-left: -26px;
+  position: fixed;
+  right: 25px;
+  width: 52px;
+/*  z-index: 1000;
+  cursor: pointer;*/
+  transform: rotate(180deg);
+}

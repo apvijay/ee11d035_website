@@ -2,19 +2,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <html>
 <head>
-<title> Vijay Rengarajan | EE, IIT Madras</title>
+<title> A P Vijay Rengarajan | Dept. of EE, IIT Madras</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
 <!--<link charset="utf-8" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" media="screen" rel="stylesheet">
 <link charset="utf-8" href="//fonts.googleapis.com/css?family=Roboto%20Condensed:400" media="screen" rel="stylesheet">
 -->
 <link rel="stylesheet" href="css/flipcard.css" /> 
 <link rel="stylesheet" href="css/details.css" /> 
-
+<link rel="stylesheet" href="css/next-button.css" /> 
 
 <!-- Load jQuery -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
  
-<!-- Load ScrollTo -->
+<!-- Load ScrollTo  -->
 <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
  
 <!-- Load LocalScroll -->
@@ -29,18 +29,18 @@ $(document).ready(function() {
 </head>
 
 <body>
-<section>
+<section class="selected">
 <div class="cards" id="scroll-smooth">
 <!--
 <div class="flip-card" ontouchstart="this.classList.toggle('hover');">
 -->
 <div class="flip-card">
-<a href="#research" class="flip">
+<a href="#research">
 <div class="flipper">
-  <div class="front bg-color-light-blue" id="scroll-smooth">
+  <div class="front">
     <h2>R</h2>
   </div>
-  <div class="back bg-color-dark-blue">
+  <div class="back">
     <p>Research</p>
   </div>
 </div>
@@ -48,12 +48,12 @@ $(document).ready(function() {
 </div>
 
 <div class="flip-card">
-<a href="#assistantship" class="flip">
+<a href="#assistantship">
 <div class="flipper">
-  <div class="front bg-color-light-green">
+  <div class="front">
     <h2>A</h2>
   </div>
-  <div class="back bg-color-dark-green">
+  <div class="back">
     <p>Assistantship</p>
   </div>
 </div>
@@ -61,12 +61,12 @@ $(document).ready(function() {
 </div>
 
 <div class="flip-card">
-<a href="#courses" class="flip">
+<a href="#courses">
 <div class="flipper">
-  <div class="front bg-color-light-red">
+  <div class="front">
     <h2>C</h2>
   </div>
-  <div class="back bg-color-dark-red">
+  <div class="back">
     <p>Courses</p>
   </div>
 </div>
@@ -74,12 +74,12 @@ $(document).ready(function() {
 </div>
 
 <div class="flip-card">
-<a href="#extras" class="flip">
+<a href="#extras">
 <div class="flipper">
-  <div class="front bg-color-light-yellow">
+  <div class="front">
     <h2>E</h2>
   </div>
-  <div class="back bg-color-dark-yellow">
+  <div class="back">
     <p>Extras</p>
   </div>
 </div>
@@ -89,25 +89,30 @@ $(document).ready(function() {
 </div>
 </section>
 
-<section>
+<section class="selected">
+<!--<a href="#" class="next-section"></a>
+<a href="#" class="prev-section"></a>-->
 <div class="name">
 <h1>A P Vijay Rengarajan</h1>
 </div>
 </section>
 
-
-<section>
-<div class="empty">
+<section class="selected">
+<div class="name">
+<p style="font-size:2em;margin-left:0px;">
+Dept. of Electrical Engineering | 
+232, Krishna Hostel<br>
+IIT Madras<br>
+ee11d035(at)ee.iitm.ac.in</p>
+</div>
 </div>
 </section>
 
-<section>
 <div class="empty">
 <a id="research"></a>
 </div>
-</section>
 
-<section>
+<section class="selected">
 <div class="info">
 <h3>Research</h3>
 <p style="font-size:2em;margin-left:200px;">
@@ -127,17 +132,18 @@ lab</a>.</p>
 </div>
 </section>
 
-<section>
+
 <div class="empty">
 <a id="assistantship"></a>
 </div>
-</section>
 
-<section>
+<section class="selected">
 <div class="info">
 <h3>Assistantship</h3>
 <p style="font-size:2em;margin-left:200px;">
-Current: Introduction to DSP [grad]</p>
+<a href="https://courses.iitm.ac.in/course/view.php?id=3281" style="color:#00ccff">
+EC5142</a> 
+Introduction to DSP [grad]</p>
 <p style="font-size:1.5em;margin-left:200px;">
 Past:<br>
 Analog and DSP [under-grad]<br>
@@ -147,13 +153,11 @@ Communication Networks [grad]</p>
 </div>
 </section>
 
-<section>
 <div class="empty">
 <a id="courses"></a>
 </div>
-</section>
 
-<section>
+<section class="selected">
 <div class="info">
 <h3>Courses</h3>
 <p style="font-size:1.5em;margin-left:200px;">
@@ -170,13 +174,11 @@ Detection and Estimation theory</p>
 </div>
 </section>
 
-<section>
 <div class="empty">
 <a id="extras"></a>
 </div>
-</section>
 
-<section>
+<section class="selected">
 <div class="info">
 <h3>Extras</h3>
 <p style="font-size:1.5em;margin-left:200px;">
@@ -199,6 +201,7 @@ Writer Jeyamohan, எழுத்தாளர்
 </p>
 </div>
 </section>
+
+
 </body>
 </html>
-

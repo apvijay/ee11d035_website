@@ -18,12 +18,19 @@
   display: block;
   margin-left: auto;
   margin-right: auto; 
-  height: 400px;
-  vertical-align: bottom;
+  height: 300px;
+  vertical-align: top;
   text-align: center;
 }
-.flip{
-  color: #ffffff;
+#left-col{
+  float: left;
+  width: 400px;
+  text-align: left;
+}
+#right-col{
+  float: right;
+  width: 400px;
+  text-align: right;
 }
 
 a:link{
@@ -64,5 +71,6 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background: -moz-radial-gradient(circle, #777777, #444444);
+  background: -webkit-radial-gradient(circle, #777777, #444444);
   color: #ffffff;
 }
